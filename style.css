@@ -1,0 +1,135 @@
+body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        }
+        
+        .cart-container {
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 8px;
+            align-content: center;
+        }
+
+        .cart-container h2 {
+            text-align: center;
+            color: rgb(246, 24, 24);
+              
+        }
+
+        .item-options, .item-details, .total, .add-to-cart {
+            margin-bottom: 15px;
+        }
+
+        .item-option-container {
+            margin-bottom: 10px;
+        }
+
+        .item-option {
+            display: flex;
+            align-items: center;
+        }
+
+        .item-option label {
+            margin-left: 8px;
+        }
+
+        .additional-details {
+            display: none;
+            margin-top: 10px;
+            color: #666;
+        }
+
+        .additional-details .row {
+            display: flex;
+            justify-content: space-between;
+            color: #666;
+        }
+
+        .additional-details .row div {
+            flex: 1;
+            margin: 0 5px;
+        }
+
+        .total, .add-to-cart {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+        .add-to-cart button {
+            width: 100%; 
+            padding: 15px;
+            font-size: 16px;
+            background-color: rgb(246, 24, 24);
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+        .standard-price{
+            font-size: 0.9em;
+            color: #666;
+            margin-right: 28px;
+        }
+
+        .light-black {
+            color: #333333; /* Light black color */
+        }
+
+        #size1, #color1 {
+            color: #666;
+        }
+        .Delivery{
+            color: rgb(246, 24, 24);
+        }
+        .discount-text {
+         color: white;
+         background-color:rgb(246, 24, 24);
+         padding: 2px 6px;
+         border-radius: 4px;
+         margin-left: 10px; /* Adds space between "1 Unit" and "10% off" */
+        }
+        .price {
+            margin-left: 80px;
+            color: #333;
+        }
+        .item-option-container {
+            margin-bottom: 15px;
+            border: 1px solid #666; /* Box border */
+            padding: 10px;           /* Box padding */
+            background-color: #f9f9f9;
+        }
+
+        .item-option-container2 {
+            margin-bottom: 15px;
+            border: 3px solid rgb(246, 24, 24);
+            padding: 10px;           
+            background-color: #f9f9f9;
+        }
+
+        .item-option {
+            position: relative;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .most-popular-badge {
+            position: absolute;
+            top: -9px;
+            right: -55px;
+            transform: translate(-50%, -50%);
+            background-color:rgb(246, 24, 24);
+            color: #f9f9f9;
+            padding: 5px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 3px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
